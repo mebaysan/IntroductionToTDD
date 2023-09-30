@@ -1,3 +1,5 @@
+[![CI - Main](https://github.com/mebaysan/IntroductionToTDD/actions/workflows/ci.yaml/badge.svg)](https://github.com/mebaysan/IntroductionToTDD/actions/workflows/ci.yaml)[![CI - Develop](https://github.com/mebaysan/IntroductionToTDD/actions/workflows/ci-dev.yaml/badge.svg)](https://github.com/mebaysan/IntroductionToTDD/actions/workflows/ci-dev.yaml)
+
 # Introduction
 
 This repo is designed to experiment TDD for my YouTube channel, [BaysanSoft](https://www.youtube.com/c/BaysanSoft).
