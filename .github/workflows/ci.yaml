@@ -9,7 +9,7 @@ on:
       - "main"
 
 jobs:
-  docker:
+  continuous-integration:
     runs-on: ubuntu-latest
     # if you need any service, you can define them here
     # services:
