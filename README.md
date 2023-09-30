@@ -1,4 +1,4 @@
-[![CI - Main](https://github.com/mebaysan/IntroductionToTDD/actions/workflows/ci.yaml/badge.svg)](https://github.com/mebaysan/IntroductionToTDD/actions/workflows/ci.yaml)[![CI - Develop](https://github.com/mebaysan/IntroductionToTDD/actions/workflows/ci-dev.yaml/badge.svg)](https://github.com/mebaysan/IntroductionToTDD/actions/workflows/ci-dev.yaml)
+[![CI - Main](https://github.com/mebaysan/IntroductionToTDD/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/mebaysan/IntroductionToTDD/actions/workflows/ci.yaml) [![CI - Develop](https://github.com/mebaysan/IntroductionToTDD/actions/workflows/ci-dev.yaml/badge.svg?branch=main)](https://github.com/mebaysan/IntroductionToTDD/actions/workflows/ci-dev.yaml)
 
 # Introduction
 
