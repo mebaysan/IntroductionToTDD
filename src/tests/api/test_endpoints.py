@@ -22,6 +22,13 @@ def test_hello_endpoint(client):
     assert response.json == {"message": "Hello, Baysan!"}
 
 
+def test_hello_endpoint_fail(client):
+    """Test the hello endpoint fail."""
+    response = client.post("/hello/", json={"name": ""})
+    assert response.status_code == 400
+    assert response.json == {"error": "Please provide a name"}
+
+
 def test_endpoint_countries(client, mocked_get_country_states_from_api):
     """Test the countries endpoint."""
 
@@ -68,3 +75,4 @@ def test_endpoint_country_detail_fail(client, mocked_get_country_states_from_api
     response = client.get("/countries/SALLAMASYON/")
 
     assert response.status_code == 404
+    assert response.json == {"error": "Country not found"}
