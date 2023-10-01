@@ -43,3 +43,12 @@ docker image build . -t myapp-local:latest
 
 docker run -p 8000:5000 -d --name myapp-local myapp-local:latest
 ```
+
+
+# Environment Variables
+
+```bash
+BAYSANSOFT_APP_DEBUG=True # if it is defined in env variables, the app will be started in debug mode
+
+SECRET_KEY=mysecretkey
+```
