@@ -28,7 +28,7 @@ def create_app():
         """Return a custom greeting to the name provided in the request body."""
         name = request.json.get("name")
         if not name:
-            return {"error": "Please provide a name"}, 500
+            return {"error": "Please provide a name"}, 400
         return {"message": f"Hello, {name}!"}
 
     @app.route("/countries/")
