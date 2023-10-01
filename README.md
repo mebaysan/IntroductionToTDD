@@ -6,6 +6,8 @@ This repo is designed to experiment TDD for my YouTube channel, [BaysanSoft](htt
 
 Because of I am not a fan of Flask, I didn't pay attention to create a well-designed project structure. You can ask that "what is happening in create_app function?". I just try to keep it simple.
 
+You can access the presentation files by [here](https://www.canva.com/design/DAFv8eCNMN4/Z498h5Wz9hxSmYcAwI0mng/watch?utm_content=DAFv8eCNMN4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink).
+
 Kind regards
 
 
